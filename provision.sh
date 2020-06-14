@@ -22,11 +22,9 @@ gem install scss_lint -v 0.48.0 -N
 go get -u gopkg.in/alecthomas/gometalinter.v1
 ln -s $GOPATH/bin/gometalinter.v1 $GOPATH/bin/gometalinter
 
-npm -q install
+npm install
 
 pip --no-cache-dir install -r requirements.txt
-
-npm cache clean
 
 mkdir -p /usr/src/shellcheck
 cd /usr/src/shellcheck 
